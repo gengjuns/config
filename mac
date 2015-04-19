@@ -1,0 +1,39 @@
+
+#!/bin/bash
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install caskroom/cask/brew-cask
+
+brew install maven
+brew install mysql 
+cp `brew --prefix mysql`/*mysql*.plist ~/Library/LaunchAgents/
+launchctl load -w ~/Library/LaunchAgents/*mysql*.plist
+
+brew install mongodb
+# To have launchd start mongodb at login:
+#     ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
+# Then to load mongodb now:
+#     launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
+# Or, if you don't want/need launchctl, you can just run:
+#     mongod --config /usr/local/etc/mongod.conf
+
+brew cask install alfred
+#brew cask install qq
+#brew cask install skype
+brew cask install thunder
+brew cask install mplayerx
+brew cask install evernote
+#brew cask install skitch
+#brew cask install dropbox
+#brew cask install google-chrome
+brew cask install mou
+brew cask install iterm2
+brew cask install sublime-text
+brew cask install sequel-pro
+
+#oh-my-zch
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+
+#Play! framework
+brew install typesafe-activator
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<public publicId="/WEB-INF/tld/iextend-codeLookup.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/iextend-codeLookup.tld"/>
+<public publicId="/WEB-INF/tld/c.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/c.tld"/>
+<public publicId="/WEB-INF/tld/iextend-html.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/iextend-html.tld"/>
+<public publicId="/WEB-INF/tld/iextend-itrust.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/iextend-itrust.tld"/>
+<public publicId="/WEB-INF/tld/iextend-menu.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/iextend-menu.tld"/>
+<public publicId="/WEB-INF/tld/struts-bean-el.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/struts-bean-el.tld"/>
+<public publicId="/WEB-INF/tld/iextend-session.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/iextend-session.tld"/>
+<public publicId="/WEB-INF/tld/iextend-pagination.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/iextend-pagination.tld"/>
+<public publicId="/WEB-INF/tld/struts-html-el.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/struts-html-el.tld"/>
+<public publicId="/WEB-INF/tld/iextend-sortOrder.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/iextend-sortOrder.tld"/>
+<public publicId="/WEB-INF/tld/struts-tiles-el.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/struts-tiles-el.tld"/>
+<public publicId="/WEB-INF/tld/iextend-sitemap.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/iextend-sitemap.tld"/>
+<public publicId="/WEB-INF/tld/struts-bean.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/struts-bean.tld"/>
+<public publicId="/WEB-INF/tld/struts-logic-el.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/struts-logic-el.tld"/>
+<public publicId="/WEB-INF/tld/struts-logic.tld" uri="file:///F:/SaaSConnect/saasconnect-src/tld/struts-logic.tld"/>
+</catalog>
