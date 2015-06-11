@@ -37,3 +37,7 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 #Play! framework
 brew install typesafe-activator
 
+# zookeeper
+brew install zookeeper
+
+
